@@ -52,11 +52,10 @@ int main(){
     while (aux == 0){
         cout << "6 - Entre com um numero entre 1 e 7: ";
         cin >> num;
-        if ((num >= 1) && (num <= 7)){
+        if ((num >= 1) && (num <= 7)) {
             aux = 1;
         }
-    }
-    
+    } 
     switch (num) {
         case 1:
             cout << "Domingo" << endl;
